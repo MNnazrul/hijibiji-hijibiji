@@ -14,7 +14,10 @@ app.use(express.json());
 app.use(express.static(join(__dirname, "public")));
 
 io.on("connection", (socket) => {
-  console.log("a user is connected", socket.id);
+  socket.on("chat message", (msg) => {
+    console.log(msg);
+    io.emit("chat message", msg);
+  });
 });
 
 app.get("/", (req, res) => {
