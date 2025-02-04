@@ -285,9 +285,9 @@ export default ComponentLifecycle;
 
 #### 🔥 Best Practices for useEffect()
 
-1️⃣ Separate Concerns: Keep each side effect in its own useEffect() (e.g., one for API calls, one for DOM manipulations).
-2️⃣ Use Dependencies Correctly: Always define dependencies correctly to avoid unnecessary re-renders or missed updates.
-3️⃣ Avoid Memory Leaks: Use cleanup functions to remove event listeners, timers, etc., on unmount.
+- 1️⃣ Separate Concerns: Keep each side effect in its own useEffect() (e.g., one for API calls, one for DOM manipulations).
+- 2️⃣ Use Dependencies Correctly: Always define dependencies correctly to avoid unnecessary re-renders or missed updates.
+- 3️⃣ Avoid Memory Leaks: Use cleanup functions to remove event listeners, timers, etc., on unmount.
 
 ### 6️⃣ useEffect() with Async Functions
 

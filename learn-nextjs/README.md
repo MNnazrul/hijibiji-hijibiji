@@ -37,4 +37,59 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ---
 
+---
+
+---
+
+---
+
+### `fetch()` API in Detail
+
+The fetch() function is a modern, built-in JavaScript API for making HTTP requests. It provides a Promise-based way to interact with resources such as APIs, databases, and remote servers.
+
+#### Basic Syntax
+
+```js
+fetch(url, options)
+  .then((response) => response.json()) // Convert response to JSON
+  .then((data) => console.log(data)) // Handle data
+  .catch((error) => console.error(error)); // Handle errors
+```
+
+- `url`: The resource (API endpoint) to fetch from.
+- `options (optional)`: An object that specifies request method, headers, body, etc.
+
+---
+
+### `JSON.stringify()` in JavaScript
+
+`JSON.stringify()` converts a JavaScript object or array into a JSON string. This is useful when sending data to APIs, storing data in local storage, or logging structured data.
+
+#### Syntax
+
+```js
+JSON.stringify(value, replacer, space);
+```
+
+#### Parameters
+
+- value (Required) → The object/array to convert into JSON.
+- replacer (Optional) → A function or array to filter which properties to include.
+- space (Optional) → Number of spaces or a string for indentation (for pretty-printing).
+
+**Example**
+
+```tsx
+JSON.stringify(data, ["products", "id", "title", "price"], 2);
+// hooks/useEffect/v3
+```
+
+---
+
+---
+
+---
+
+---
+
 ## Explain of layout.tsx:
