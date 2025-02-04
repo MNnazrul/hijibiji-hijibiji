@@ -1,4 +1,4 @@
-export default function Profile() {
+function Profile() {
   return (
     <div>
       <h1>Profile</h1>
@@ -6,3 +6,5 @@ export default function Profile() {
     </div>
   );
 }
+
+export default Profile;
