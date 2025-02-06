@@ -84,9 +84,111 @@ JSON.stringify(data, ["products", "id", "title", "price"], 2);
 // hooks/useEffect/v3
 ```
 
----
+### `ReactNode` in Typescript
 
----
+`ReactNode` is a type from React that represents anything that can be rendered in React. This includes **elements, text, fragments, portals,** and even **null** or **undefined**.
+
+It is commonly **used for typing the children prop** when creating reusable components.
+
+### 1. Basic Usage of `ReactNode`
+
+**Example: Typing the children prop with `ReactNode`**
+
+```tsx
+import React, { ReactNode } from "react";
+
+interface CardProps {
+  children: ReactNode; // Accepts any valid JSX content
+}
+
+const Card: React.FC<CardProps> = ({ children }) => {
+  return <div className="card">{children}</div>;
+};
+
+export default Card;
+```
+
+✅ The `Card` component can now accept **any valid React elements** as its children:
+
+```tsx
+<Card>
+  <h2>Hello</h2>
+  <p>This is a card component.</p>
+</Card>
+```
+
+### 2. What Values Does ReactNode Include?
+
+`ReactNode` can be:
+
+#### ✅ JSX elements:
+
+```tsx
+const element: ReactNode = <h1>Hello</h1>;
+```
+
+#### ✅ Strings and numbers:
+
+```tsx
+const text: ReactNode = "Hello, world!";
+const number: ReactNode = 42;
+```
+
+#### ✅ Arrays of elements:
+
+```tsx
+const list: ReactNode = [<li>Item 1</li>, <li>Item 2</li>];
+```
+
+#### ✅ null or undefined:
+
+```tsx
+const empty: ReactNode = null;
+```
+
+#### ✅ Fragments:
+
+```tsx
+const fragment: ReactNode = (
+  <>
+    <h1>Title</h1>
+    <p>Description</p>
+  </>
+);
+```
+
+#### ✅ React Portals:
+
+```tsx
+const portal: ReactNode = React.createPortal(
+  <div>Inside Portal</div>,
+  document.body
+);
+```
+
+### 3. Difference Between ReactNode and `JSX.Element`
+
+**Example of `JSX.Element`:**
+
+```tsx
+const myElement: JSX.Element = <h1>Hello</h1>; // ✅ Works
+const myString: JSX.Element = "Hello"; // ❌ Error, because JSX.Element must be an element
+```
+
+Use `JSX.Element` when expecting only a single JSX element, while ReactNode is more flexible and allows multiple types.
+
+### 4. When to Use ReactNode?
+
+**✅ When defining children in a component:**
+
+```tsx
+interface Props {
+  children: ReactNode;
+}
+```
+
+**✅ When expecting any renderable content, including strings and fragments.** <br>
+**✅ When creating higher-order components (HOCs) that wrap other components.**
 
 ---
 
