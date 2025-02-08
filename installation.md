@@ -37,7 +37,9 @@ pip install -r requirements.txt
 2. migration :
    python manage.py migrate
 3. run django project
-   python manage.py runserver
+   python manage.py runserv
+4. create superuser:
+   python manage.py createsuperuser
 
 # install again :
 
