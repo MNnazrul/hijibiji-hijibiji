@@ -28,6 +28,15 @@ Install Django and MySQL Client in a Virtual Environment
    source venv/bin/activate # On Fedora/Linux
 ```
 
+```
+python -m pip install Django
+```
+
+```
+pip install djangorestframework
+
+```
+
 4.Once you have the requirements.txt file, install all dependencies in your virtual environment by running:
 
 pip install -r requirements.txt
@@ -37,7 +46,7 @@ pip install -r requirements.txt
 2. migration :
    python manage.py migrate
 3. run django project
-   python manage.py runserv
+   python manage.py runserver
 4. create superuser:
    python manage.py createsuperuser
 
