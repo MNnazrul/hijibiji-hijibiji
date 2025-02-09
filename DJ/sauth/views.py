@@ -2,7 +2,6 @@ import os
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from django.http import HttpResponse
 from django.conf import settings
 
 # Create your views here.
@@ -46,3 +45,25 @@ def get_file(request):
     return Response({
         "uploaded_files" : saved_files_info
     }, status=201)
+
+
+@api_view(['DELETE'])
+def delete_file(request):
+    file_name = request.data.get('file_name')
+    
+    if not file_name:
+        return Response({
+            'error': 'file_name requred'
+        }, status=400)
+    
+    file_path = os.path.join(settings.MEDIA_ROOT, 'uploads', file_name)
+
+    if os.path.exists(file_path):
+        os.remove(file_path)
+        return Response({
+            'message': f"File {file_name} deleted successfully"
+        }, status=201)
+    else:
+        return Response({
+            'error': 'file not found' 
+        }, status=400)
