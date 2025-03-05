@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import FileUploader from "./components/FileUploader";
+import FileList from "./components/FileList";
 import { CodeFile } from "./lib/types";
 
 export default function Home() {
@@ -17,9 +18,34 @@ export default function Home() {
     console.log("file list : ", files);
   };
 
+  const handleFileSelect = (fileId: string) => {
+    setSelectedFileId(fileId);
+  };
+
+  const handleFileDelete = (fileId: string) => {
+    setFiles((prevFiles) => prevFiles.filter((file) => file.id !== fileId));
+
+    if (selectedFileId === fileId) {
+      const remainingFiles = files.filter((file) => file.id !== fileId);
+      if (remainingFiles.length > 0) {
+        setSelectedFileId(remainingFiles[0].id);
+      } else {
+        setSelectedFileId(null);
+      }
+    }
+  };
+
   return (
     <div className="">
       <FileUploader onFileUploaded={handleFileUpload} />
+      <div>
+        <FileList
+          files={files}
+          selectedFileId={selectedFileId}
+          onFileSelect={handleFileSelect}
+          onFileDelete={handleFileDelete}
+        />
+      </div>
     </div>
   );
 }
