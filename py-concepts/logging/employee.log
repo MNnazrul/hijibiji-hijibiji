@@ -1,0 +1,24 @@
+INFO:Created Employee: John - Smith
+INFO:Created Employee: Corey - Schafer
+INFO:Created Employee: Jane - Doe
+INFO:Created Employee: John - Smith
+INFO:Created Employee: Corey - Schafer
+INFO:Created Employee: Jane - Doe
+INFO:Created Employee: John - Smith
+INFO:Created Employee: Corey - Schafer
+INFO:Created Employee: Jane - Doe
+INFO:Created Employee: John - Smith
+INFO:Created Employee: Corey - Schafer
+INFO:Created Employee: Jane - Doe
+INFO:Created Employee: John Smith - John.Smith@email.com
+INFO:Created Employee: Corey Schafer - Corey.Schafer@email.com
+INFO:Created Employee: Jane Doe - Jane.Doe@email.com
+INFO:Created Employee: John - Smith
+INFO:Created Employee: Corey - Schafer
+INFO:Created Employee: Jane - Doe
+INFO:Created Employee: <bound method Employee.fullname of <__main__.Employee object at 0x7f6c7e65f620>> - <bound method Employee.email of <__main__.Employee object at 0x7f6c7e65f620>>
+INFO:Created Employee: <bound method Employee.fullname of <__main__.Employee object at 0x7f6c7061f4d0>> - <bound method Employee.email of <__main__.Employee object at 0x7f6c7061f4d0>>
+INFO:Created Employee: <bound method Employee.fullname of <__main__.Employee object at 0x7f6c7061f610>> - <bound method Employee.email of <__main__.Employee object at 0x7f6c7061f610>>
+INFO:Created Employee: John Smith - John.Smith@email.com
+INFO:Created Employee: Corey Schafer - Corey.Schafer@email.com
+INFO:Created Employee: Jane Doe - Jane.Doe@email.com
