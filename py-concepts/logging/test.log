@@ -4,3 +4,5 @@ DEBUG:root:31
 DEBUG:root:220
 DEBUG:root:40
 DEBUG:root:400
+{'name': 'root', 'msg': 40, 'args': (), 'levelname': 'DEBUG', 'levelno': 10, 'pathname': '/home/mnnazrul/Desktop/DevPath/py-concepts/logging/main.py', 'filename': 'main.py', 'module': 'main', 'exc_info': None, 'exc_text': None, 'stack_info': None, 'lineno': 19, 'funcName': '<module>', 'created': 1741594237.7517967, 'msecs': 751.0, 'relativeCreated': 2.433002, 'thread': 140699031435072, 'threadName': 'MainThread', 'processName': 'MainProcess', 'process': 34502, 'taskName': None, 'message': '40'}(asctime)s:root:40
+{'name': 'root', 'msg': 400, 'args': (), 'levelname': 'DEBUG', 'levelno': 10, 'pathname': '/home/mnnazrul/Desktop/DevPath/py-concepts/logging/main.py', 'filename': 'main.py', 'module': 'main', 'exc_info': None, 'exc_text': None, 'stack_info': None, 'lineno': 20, 'funcName': '<module>', 'created': 1741594237.7519548, 'msecs': 751.0, 'relativeCreated': 2.59108, 'thread': 140699031435072, 'threadName': 'MainThread', 'processName': 'MainProcess', 'process': 34502, 'taskName': None, 'message': '400'}(asctime)s:root:400

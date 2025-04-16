@@ -11,7 +11,7 @@
 
 import logging
 
-logging.basicConfig(filename='test.log', level=logging.DEBUG)
+logging.basicConfig(filename='test.log', level=logging.DEBUG, format='%s(asctime)s:%(name)s:%(message)s')
 
 num1 = 20
 num2 = 20
