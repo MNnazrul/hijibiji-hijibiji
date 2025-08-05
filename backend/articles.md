@@ -1,0 +1,1 @@
+- [FastAPI Best Practices and Design Patterns: Building Quality Python APIs](https://medium.com/@lautisuarez081/fastapi-best-practices-and-design-patterns-building-quality-python-apis-31774ff3c28a)
