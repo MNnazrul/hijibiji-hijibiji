@@ -1,1 +1,3 @@
 - [FastAPI Best Practices and Design Patterns: Building Quality Python APIs](https://medium.com/@lautisuarez081/fastapi-best-practices-and-design-patterns-building-quality-python-apis-31774ff3c28a)
+- [FastAPI Best Practices: A Condensed Guide with Examples](https://dev.to/devasservice/fastapi-best-practices-a-condensed-guide-with-examples-3pa5)
+- [5 Must-Know Design Patterns for Building Scalable FastAPI Applications](https://theprimadonna.medium.com/5-must-know-design-patterns-for-building-scalable-fastapi-applications-36f9f31059fd)
