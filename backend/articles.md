@@ -2,3 +2,4 @@
 - [FastAPI Best Practices: A Condensed Guide with Examples](https://dev.to/devasservice/fastapi-best-practices-a-condensed-guide-with-examples-3pa5)
 - [5 Must-Know Design Patterns for Building Scalable FastAPI Applications](https://theprimadonna.medium.com/5-must-know-design-patterns-for-building-scalable-fastapi-applications-36f9f31059fd)
 - [Backend Communication Design Patterns: Request-Response Pattern](https://okenna.hashnode.dev/backend-communication-design-patterns-request-response-pattern#heading-problems-with-request-response-pattern)
+- [Backend Communication Design Patterns: Synchronous and Asynchronous Workloads](https://okenna.hashnode.dev/backend-communication-design-patterns-synchronous-and-asynchronous-workloads)
