@@ -7,3 +7,5 @@
 - [X] [Understanding the Push Model in Backend Systems: A Practical Guide](https://medium.com/@mayank66jain/understanding-the-push-model-in-backend-systems-a-practical-guide-bffc9ff280d9)
 - [X] [Backend Communication Patterns: Push](https://medium.com/@tanmoysantra67/backend-communication-patterns-push-723a684842e5)
 - [X] [Backend Communication Patterns: Short Polling](https://medium.com/@tanmoysantra67/backend-communication-patterns-short-polling-b6a21767a0bb)
+- [X] [Long Polling in Backend Systems: A Deep Dive into Design and Implementation](https://medium.com/@CodeKrafter/long-polling-in-backend-systems-a-deep-dive-into-design-and-implementation-e491250e0cf8)
+- [X] [Backend Communication Patterns: Long Polling](https://medium.com/@tanmoysantra67/backend-communication-patterns-long-polling-54edc0dd7ee7)
