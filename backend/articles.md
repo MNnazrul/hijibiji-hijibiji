@@ -6,3 +6,4 @@
 - [ ] [Node.js animated: Event Loop](https://dev.to/nodedoctors/an-animated-guide-to-nodejs-event-loop-3g62)
 - [X] [Understanding the Push Model in Backend Systems: A Practical Guide](https://medium.com/@mayank66jain/understanding-the-push-model-in-backend-systems-a-practical-guide-bffc9ff280d9)
 - [X] [Backend Communication Patterns: Push](https://medium.com/@tanmoysantra67/backend-communication-patterns-push-723a684842e5)
+- [X] [Backend Communication Patterns: Short Polling](https://medium.com/@tanmoysantra67/backend-communication-patterns-short-polling-b6a21767a0bb)
