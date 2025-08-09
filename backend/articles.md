@@ -4,3 +4,5 @@
 - [X] [Backend Communication Design Patterns: Request-Response Pattern](https://okenna.hashnode.dev/backend-communication-design-patterns-request-response-pattern#heading-problems-with-request-response-pattern)
 - [X] [Backend Communication Design Patterns: Synchronous and Asynchronous Workloads](https://okenna.hashnode.dev/backend-communication-design-patterns-synchronous-and-asynchronous-workloads)
 - [ ] [Node.js animated: Event Loop](https://dev.to/nodedoctors/an-animated-guide-to-nodejs-event-loop-3g62)
+- [X] [Understanding the Push Model in Backend Systems: A Practical Guide](https://medium.com/@mayank66jain/understanding-the-push-model-in-backend-systems-a-practical-guide-bffc9ff280d9)
+- [X] [Backend Communication Patterns: Push](https://medium.com/@tanmoysantra67/backend-communication-patterns-push-723a684842e5)
