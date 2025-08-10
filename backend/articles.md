@@ -9,3 +9,7 @@
 - [X] [Backend Communication Patterns: Short Polling](https://medium.com/@tanmoysantra67/backend-communication-patterns-short-polling-b6a21767a0bb)
 - [X] [Long Polling in Backend Systems: A Deep Dive into Design and Implementation](https://medium.com/@CodeKrafter/long-polling-in-backend-systems-a-deep-dive-into-design-and-implementation-e491250e0cf8)
 - [X] [Backend Communication Patterns: Long Polling](https://medium.com/@tanmoysantra67/backend-communication-patterns-long-polling-54edc0dd7ee7)
+- [X] [Backend to Frontend communication with Server-Sent Events](https://dev.to/cloudx/backend-to-frontend-communication-with-server-sent-events-56kf)
+- [X] [Implementing Server-Sent Events (SSE) in Node.js with Next.js: A Complete Guide](https://medium.com/@ammarbinshakir557/implementing-server-sent-events-sse-in-node-js-with-next-js-a-complete-guide-1adcdcb814fd)
+- [X] [Server-Sent Events (SSE): Real-Time Notifications from Backend to Frontend](https://medium.com/@wemotive/server-sent-events-sse-real-time-notifications-from-backend-to-frontend-79eea3e5e198)
+- [ ] 
