@@ -1,4 +1,3 @@
----
 ## 🚦 Intelligent Travel & Local Business Assistant
 
 **Problem it solves:**
