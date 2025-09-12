@@ -15,3 +15,4 @@
 - [X] [Multiplexing, Demultiplexing (HTTP1.1/HTTP2), & Connection pooling](https://casarrubias.com/blog/multiplexing-demultiplexing-http2-connection-pooling/35/)
 - [X] [Stateful vs Stateless Architecture – Explained for Beginners](https://www.freecodecamp.org/news/stateful-vs-stateless-architectures-explained/)
 - [X] [Understanding the OSI Model: A Refresher for Backend Engineers](https://faun.pub/understanding-the-osi-model-a-refresher-for-backend-engineers-23a67ed29875)
+- [X] [Building a Scalable FastAPI Application with Docker and Redis.](https://medium.com/@engr.tanveersultan53/building-a-scalable-fastapi-application-with-docker-and-redis-5adecf81c69f)
