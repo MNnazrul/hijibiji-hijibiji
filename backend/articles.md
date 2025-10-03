@@ -16,3 +16,5 @@
 - [X] [Stateful vs Stateless Architecture – Explained for Beginners](https://www.freecodecamp.org/news/stateful-vs-stateless-architectures-explained/)
 - [X] [Understanding the OSI Model: A Refresher for Backend Engineers](https://faun.pub/understanding-the-osi-model-a-refresher-for-backend-engineers-23a67ed29875)
 - [X] [Building a REST API with FastAPI and Redis Caching](https://medium.com/@suganthi2496/building-a-rest-api-with-fastapi-and-redis-caching-278c4dc07d70)
+- [X] [SOLID Principles using Typescript](https://medium.com/tradeling/solid-principles-using-typescript-d9d705be7d48)
+- [X] [Interface Segregation Principle (ISP) with TypeScript examples](https://medium.com/@khomyakov/interface-segregation-principle-isp-with-typescript-examples-8f82f538a9b2) 
