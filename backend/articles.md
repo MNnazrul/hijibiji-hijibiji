@@ -19,3 +19,4 @@
 - [X] [SOLID Principles using Typescript](https://medium.com/tradeling/solid-principles-using-typescript-d9d705be7d48)
 - [X] [Interface Segregation Principle (ISP) with TypeScript examples](https://medium.com/@khomyakov/interface-segregation-principle-isp-with-typescript-examples-8f82f538a9b2)
 - [X] [System Design: What is Scalability?](https://blog.algomaster.io/p/scalability)
+- [X] [System Design: What is Availability?](https://blog.algomaster.io/p/system-design-what-is-availability)
