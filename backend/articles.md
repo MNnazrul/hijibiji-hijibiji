@@ -21,3 +21,4 @@
 - [X] [System Design: What is Scalability?](https://blog.algomaster.io/p/scalability)
 - [X] [System Design: What is Availability?](https://blog.algomaster.io/p/system-design-what-is-availability)
 - [X] [CAP Theorem Explained](https://blog.algomaster.io/p/cap-theorem-explained)
+- [X] [GraphQL with FastAPI: The Ultimate Guide to Flexible APIs](https://medium.com/@suganthi2496/graphql-with-fastapi-the-ultimate-guide-to-flexible-apis-78fd5afeaada)
